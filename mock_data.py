@@ -52,7 +52,7 @@ def write_to_csv(data,filename):
         csv_writer=csv.DictWriter(f,fieldnames=["customer_id", "name", "debit_card_number", "debit_card_type",
                                                       "bank_name", "transaction_date", "amount_spend"])
         csv_writer.writeheader()
-        csv_writer.writerow(data)
+        csv_writer.writerows(data)
 
     return
 
