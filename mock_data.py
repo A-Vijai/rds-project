@@ -1,3 +1,4 @@
+
 import csv
 from random import randint, choice
 
@@ -59,7 +60,7 @@ def write_to_csv(data,filename):
 
 def generate_data(currrent_date,date_str):
     transactions=generate_transactions(transactions_per_day,currrent_date)
-    write_to_csv(currrent_date,f"tmp/transactions_{date_str}.csv")
+    write_to_csv(currrent_date,f"/tmp/transactions_{date_str}.csv")
     print(f"Generated mock transaction data transactions_{date_str}.csv and saved in csv files")
     return
 
