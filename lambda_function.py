@@ -16,7 +16,7 @@ def lambda_handler(event,context):
         print(current_date)
         date_str=str(current_date)
         generate_data(current_date,date_str)
-        UploadToS3(f'transactions_{date_str}.csv',date_str)
+        upload_to_s3(f'transactions_{date_str}.csv',date_str)
 
 
     connect_and_create_db()
