@@ -53,7 +53,7 @@ def write_to_csv(data,filename):
         csv_writer.writeheader()
         csv_writer.writerow(data)
 
-        return
+    return
 
 
 
