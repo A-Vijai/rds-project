@@ -1,7 +1,7 @@
 from datetime import date, timedelta
 import json
 from mock_data import generate_data
-from upload_to_s3 import UploadToS3
+from upload_to_s3 import upload_to_s3
 from rds_connect import connect_and_create_db
 
 
