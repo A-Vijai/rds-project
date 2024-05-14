@@ -22,7 +22,7 @@ def generate_transaction(customer_name,current_date):
         customer_info[customer_name] ={
             "customer_id":randint(1000000000, 9999999999), 
             "debit_card_number":card_number,
-            "debit_card_type":choice(choice(card_types)),
+            "debit_card_type":choice(card_types),
             "bank_name":bank_name 
         }
 
