@@ -17,8 +17,8 @@ customer_info = {}
 
 def generate_transaction(customer_name,current_date):
     if customer_name not in customer_info:
-        "card_number":f"{randint(1000, 9999)}-{randint(1000, 9999)}-{randint(1000, 9999)}-{randint(1000, 9999)}"
-        "bank_name":choice(bank_names) 
+        card_number:f"{randint(1000, 9999)}-{randint(1000, 9999)}-{randint(1000, 9999)}-{randint(1000, 9999)}"
+        bank_name:choice(bank_names) 
         customer_info[customer_name] ={
             "customer_id":randint(1000000000, 9999999999), 
             "debit_card_number":card_number,
